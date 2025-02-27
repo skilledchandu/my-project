@@ -1,49 +1,8 @@
-a = "a"
+#Program to find the ASCII value of a character
+char = input("Enter a character")
 
-print(a.upper())
+#Get the ASCII value of the character
+ascii_value = ord(char)
 
-b = "b"
-
-print(b.upper())
-
-c = "c"
-
-print(c.upper())
-
-d = "d"
-
-print(d.upper())
-
-e = "e"
-
-print(e.upper())
-
-f = "f"
-
-print(f.upper())
-
-g = "g"
-
-print(g.upper())
-
-h = "h"
-
-print(h.upper())
-
-i = "i"
-
-print(i.upper())
-
-j = "j"
-
-print(j.upper())
-
-k = "k"
-
-print(k.upper())
-
-l = "l"
-
-print(l.upper())
-
-
+#Print the ASCII value
+print(f"The ASCII value of '{char}' is {ascii_value}")
